@@ -1,4 +1,7 @@
 <div class="container">
+  <div class="badge">
+    <button class= mat-stroked-button matBadge="{{closed}}" color="primary"> Tasks Finalizadas </button>
+  </div>
         <button class="novo-todo mat-elevation-z8" mat-stroked-button color="primary"> NOVO TO-DO </button>
 
   
@@ -9,7 +12,7 @@
 
       <mat-card-header>
         <mat-card-title>{{item.titulo}}</mat-card-title>
-        <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+        <mat-card-subtitle>{{item.descricao}}</mat-card-subtitle>
       </mat-card-header>
 
       <div class="actions">
